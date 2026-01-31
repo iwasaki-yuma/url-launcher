@@ -1,17 +1,17 @@
 # URL Launcher
 
-Simple CLI tool that stores named URL shortcuts in SQLite and opens them in a browser.
+SQLite に名前付きの URL を保存し、ブラウザで開くシンプルな CLI ツールです。
 
-## Build
+## ビルド
 
-Prereqs (Ubuntu):
+前提 (Ubuntu):
 
 ```
 sudo apt update
 sudo apt install -y cmake g++ libsqlite3-dev
 ```
 
-Build:
+ビルド:
 
 ```
 mkdir -p build
@@ -20,23 +20,23 @@ cmake ..
 cmake --build .
 ```
 
-The binary is `build/mytool`.
+実行ファイルは `build/mytool` です。
 
-## Usage
+## 使い方
 
-Add one or more URLs to a name:
+名前に URL を登録:
 
 ```
 ./mytool add <name> <url1> [url2 ...]
 ```
 
-Open all URLs stored for a name:
+登録済みの URL をまとめて開く:
 
 ```
 ./mytool open <name>
 ```
 
-## Notes
+## 補足
 
-- The SQLite database file `urls.db` is created in the working directory.
-- The launcher tries `google-chrome`, then `chromium`, then `xdg-open`.
+- SQLite の DB ファイル `urls.db` は実行したディレクトリに作成されます。
+- 起動時は `google-chrome` → `chromium` → `xdg-open` の順で試します。
