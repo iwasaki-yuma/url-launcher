@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mytool.dir/main.cpp.o CMakeFiles/mytool.dir/SQLiteDB.cpp.o CMakeFiles/mytool.dir/URLLauncher.cpp.o -o mytool  -lsqlite3 

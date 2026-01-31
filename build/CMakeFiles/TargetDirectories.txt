@@ -1,3 +1,0 @@
-/home/yuma/url-launcher/src/build/CMakeFiles/mytool.dir
-/home/yuma/url-launcher/src/build/CMakeFiles/edit_cache.dir
-/home/yuma/url-launcher/src/build/CMakeFiles/rebuild_cache.dir

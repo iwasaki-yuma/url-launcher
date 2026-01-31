@@ -1,0 +1,23 @@
+# Build artifacts
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binaries
+/app
+/mytool
+
+# Local DB
+/urls.db
+
+# Object files
+*.o
+*.d
+
+# CMake internal
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
